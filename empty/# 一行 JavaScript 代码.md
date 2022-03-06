@@ -2,7 +2,7 @@
 
 ### 随机数组
 
-`
+
 
 ```javascript
 const shuffleArray = (arr) => arr.sort(() => Math.random() - 0.5);// Testing
@@ -10,11 +10,11 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(shuffleArray(arr));
 ```
 
-`
+
 
 ### 复制到剪贴板
 
-`
+
 
 ```javascript
 const copyToClipboard = (text) =>
@@ -22,11 +22,11 @@ const copyToClipboard = (text) =>
 copyToClipboard("Hello World!");
 ```
 
-`
+
 
 ### Set 数组去重
 
-`
+
 
 ```javascript
 const getUnique = (arr) => [...new Set(arr)];// Testing
@@ -34,11 +34,11 @@ const arr = [1, 1, 2, 3, 3, 4, 4, 4, 5, 5];
 console.log(getUnique(arr));
 ```
 
-`
+
 
 ### 检测黑夜模式
 
-`
+
 
 ```javascript
 const isDarkMode = () =>
@@ -47,37 +47,37 @@ const isDarkMode = () =>
 console.log(isDarkMode());
 ```
 
-`
+
 
 ### 滚动到顶部
 
-`
+
 
 ```javascript
 const scrollToTop = (element) => element.scrollIntoView({ behavior: "smooth", block: "start" });
 ```
 
-`
+
 
 ### 滚动到底部
 
-`
+
 
 ```javascript
 const scrollToBottom = (element) => element.scrollIntoView({ behavior: "smooth", block: "end" });
 ```
 
-`
+
 
 ### 生成随机颜色
 
-`
+
 
 ```javascript
 const generateRandomHexColor = () => `#${Math.floor(Math.random() * 0xffffff).toString(16)}`;
 ```
 
-`
+
 
 
 
