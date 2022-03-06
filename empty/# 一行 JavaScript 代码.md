@@ -5,7 +5,8 @@
 
 
 ```javascript
-const shuffleArray = (arr) => arr.sort(() => Math.random() - 0.5);// Testing
+const shuffleArray = (arr) => arr.sort(() => Math.random() - 0.5);
+// Testing
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(shuffleArray(arr));
 ```
@@ -17,8 +18,8 @@ console.log(shuffleArray(arr));
 
 
 ```javascript
-const copyToClipboard = (text) =>
-  navigator.clipboard?.writeText && navigator.clipboard.writeText(text);// Testing
+const copyToClipboard = (text) => navigator.clipboard?.writeText && navigator.clipboard.writeText(text);
+// Testing
 copyToClipboard("Hello World!");
 ```
 
@@ -29,7 +30,8 @@ copyToClipboard("Hello World!");
 
 
 ```javascript
-const getUnique = (arr) => [...new Set(arr)];// Testing
+const getUnique = (arr) => [...new Set(arr)];
+// Testing
 const arr = [1, 1, 2, 3, 3, 4, 4, 4, 5, 5];
 console.log(getUnique(arr));
 ```
@@ -43,7 +45,8 @@ console.log(getUnique(arr));
 ```javascript
 const isDarkMode = () =>
   window.matchMedia &&
-  window.matchMedia("(prefers-color-scheme: dark)").matches;// Testing
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
+// Testing
 console.log(isDarkMode());
 ```
 
